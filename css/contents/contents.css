@@ -1,0 +1,94 @@
+.contents {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.title-logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  margin-bottom: 50px;
+}
+
+.title-logo :last-child {
+  position: absolute;
+  width: 600px;
+  height: 120px;
+}
+
+.intro {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.intro h1 {
+  margin-bottom: 50px;
+  color: var(--yellow);
+  font-family: "KyoboHandwriting2020A";
+  font-size: 25px;
+  font-weight: 600;
+}
+
+.intro__hours-law {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  margin-bottom: 80px;
+}
+
+.intro__hours-law img {
+  position: absolute;
+}
+
+.intro__hours-law p {
+  text-align: center;
+  font-size: 17px;
+  line-height: 1.7;
+}
+
+.inputs {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 50px;
+  font-size: 20px;
+}
+
+.inputs input {
+  width: 250px;
+  height: 60px;
+  border-radius: 15px;
+  border: none;
+  padding: 15px 20px;
+  margin: 10px;
+  font-size: 20px;
+  font-family: "GmarketSansMedium";
+}
+.inputs ::placeholder {
+  color: var(--gray);
+}
+
+@keyframes rotatelogo {
+  from {
+    transform: none;
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.result-loading img {
+  animation: rotatelogo 3s linear infinite;
+}
