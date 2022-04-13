@@ -1,7 +1,10 @@
 @import "reset.css";
 @import "variable.css";
 
-@import "contents/contents.css";
+/* Screen */
+@import "screen/contents.css";
+@import "screen/modal.css";
+@import "screen/copyright.css";
 
 html,
 body {
