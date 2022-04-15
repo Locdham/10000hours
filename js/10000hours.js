@@ -33,6 +33,9 @@ function calculator() {
   }
 
   result.style.display = "none";
+  loading.style.display = "flex"; //로딩 되는 화면이 먼저 나올것임
+
+  setTimeout(function)
 }
 
 function openModal() {}
@@ -44,3 +47,17 @@ startButton.addEventListener("click", calculator);
 openButton.addEventListener("click", openModal);
 shareButton.addEventListener("click", copyUrl);
 closeButton.addEventListener("click", closeModal);
+
+if(false){
+  console.log("hi")
+}else{
+  console.log("bye")
+}
+
+if(8 > 10){
+  console.log("hi")
+}else if(8 < 10){
+  console.log("hello")
+} else {
+  console.log("bye")
+}
